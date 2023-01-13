@@ -3,7 +3,6 @@
     <video autoplay loop muted class="bg-video">
       <source src="../assets/Mountains.mp4" type="video/mp4">
     </video>
-
     <div class="home-text">
       <img src="@/assets/Logo.png" alt="">
       <div class="text-container">
@@ -14,7 +13,6 @@
         <button>Look at destinations</button>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -63,7 +61,7 @@ export default{
   }
   button:hover{
     cursor: pointer;
-    background-color: #eeeeee2f;
+    background-color: #eeeeee0e;
     box-shadow: 0px 15px 20px #eeeeee10;
     color: #fff;
   }
