@@ -59,13 +59,13 @@ export default{
     border: 3px solid #EEEEEE;
     background: none;
     padding: 10px 30px;
+    transition: all 0.3s ease 0s;
   }
   button:hover{
     cursor: pointer;
-    background: #000000ea;
-    border: 3px solid #eeeeee00;
-    color: #b9b9b9;
-    transition: .2s;
+    background-color: #eeeeee2f;
+    box-shadow: 0px 15px 20px #eeeeee10;
+    color: #fff;
   }
 }
 .text-section{
