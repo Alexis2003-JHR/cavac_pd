@@ -10,15 +10,22 @@
           <h3>The travel like a breather for life.</h3>
           <p>Give me a moment, take a moment...</p>
         </div>
-        <button>Look at destinations</button>
+        <router-link to="/destinations"><button @click="loadLoading(true)">Look at destinations</button></router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
 export default{
-  
+  name: "Home",
+  methods: {
+    loadLoading(isLoading){
+      this.$root.$emit('loadloading', isLoading)
+      console.log(isLoading)
+    }
+  }
 }
 </script>
 
